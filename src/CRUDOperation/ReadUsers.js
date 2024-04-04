@@ -40,7 +40,7 @@ export default function ReadUsers() {
     }
 
     const onDelete = (id) => {
-        //id = 51
+        //id = 134
         axios.delete(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData/${id}`)
         .then(() => {
             getData();           

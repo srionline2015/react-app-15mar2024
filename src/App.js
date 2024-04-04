@@ -23,7 +23,7 @@ import * as UniversalImportExport from './ImportExport/ImportExportExample';
 import CSSExample from './CSSExample/CSSExample';
 
 import CalculatorUsingCC from './ClassComponent/CalculatorUsingCC';
-import CalculatorUsingFC from './FunctionalComponent/CalculatorUsingFC';
+// import CalculatorUsingFC from './FunctionalComponent/CalculatorUsingFC';
 
 //CRUD Operation
 import CRUDMenu from './CRUDOperation/CRUDMenu';
