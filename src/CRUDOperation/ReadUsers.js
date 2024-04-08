@@ -29,7 +29,7 @@ export default function ReadUsers() {
     }, [loadPage]);
 
     const setData = (data) => {
-        //{id: "51", firstName: "Gomathi", lastName: "P", checkbox: true}
+        //{id: "148", firstName: "Sampath", lastName: "KUmar", checkbox: true}
         let { id, firstName, lastName, checkbox } = data;
         localStorage.setItem('ID', id);
         localStorage.setItem('First Name', firstName);
@@ -60,7 +60,7 @@ export default function ReadUsers() {
     }
 
     return <>
-        <button onClick={() => reloadPage(false)} >Reload Page</button>
+        <button onClick={() => reloadPage(true)} >Reload Page</button>
         <table border="1">            
             <tr>
                 <th>Id</th>

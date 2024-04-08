@@ -29,6 +29,8 @@ import CalculatorUsingCC from './ClassComponent/CalculatorUsingCC';
 import CRUDMenu from './CRUDOperation/CRUDMenu';
 import CRUDRouterHome from './CRUDOperation/CRUDRouterHome';
 
+import SimpleFormValidation from './FormValidation/SimpleFormValidation';
+
 function App() {
   return (
       <div className="App">
@@ -62,10 +64,12 @@ function App() {
 
         {/* <CalculatorUsingFC></CalculatorUsingFC> */}
 
-        <BrowserRouter>
+        {/* <BrowserRouter>
             <CRUDMenu></CRUDMenu>
             <CRUDRouterHome></CRUDRouterHome>
-        </BrowserRouter>
+        </BrowserRouter> */}
+
+        <SimpleFormValidation></SimpleFormValidation>
 
       </div>
     

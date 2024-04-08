@@ -3,7 +3,7 @@ import CrudHome from "./CRUDHome";
 //import { Update } from './CRUDOperation/Update';
 import ReadUsers from "./ReadUsers";
 import CreateUser from "./CreateUser";
-// import UpdateUser from "./UpdateUser";
+import UpdateUser from "./UpdateUser";
 
 export default function CRUDRouterHome()
 {
@@ -12,7 +12,7 @@ export default function CRUDRouterHome()
             <Route path="/" element={ <CrudHome></CrudHome> }></Route>
             <Route path="/ReadUsers" element={ <ReadUsers/> }></Route>
             <Route path="/CreateUser" element={ <CreateUser></CreateUser> }></Route>
-            {/* <Route path="/UpdateUser" element={ <UpdateUser></UpdateUser> }></Route> */}
+            <Route path="/UpdateUser" element={ <UpdateUser></UpdateUser> }></Route>
         </Routes>
     </div>
 }
