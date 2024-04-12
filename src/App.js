@@ -31,6 +31,13 @@ import CRUDRouterHome from './CRUDOperation/CRUDRouterHome';
 
 import SimpleFormValidation from './FormValidation/SimpleFormValidation';
 import UseMemoAndUseCallbackHook from './Hooks/UseMemoAndUseCallbackHook';
+import UseReducerHook from './Hooks/useReducerHook';
+
+import { MovieProvider } from './Hooks/useContext/MovieContext';
+import MovieList from './Hooks/useContext/MovieList';
+import AddMovie from './Hooks/useContext/AddMovie';
+import Movie from './Hooks/useContext/Movie';
+import Nav from './Hooks/useContext/Nav';
 
 function App() {
   return (
@@ -72,7 +79,16 @@ function App() {
 
         {/* <SimpleFormValidation></SimpleFormValidation> */}
 
-        <UseMemoAndUseCallbackHook></UseMemoAndUseCallbackHook>
+        {/* <UseMemoAndUseCallbackHook></UseMemoAndUseCallbackHook> */}
+        {/* <UseReducerHook></UseReducerHook> */}
+
+        <h3>useContext() Hook</h3>      
+
+        <MovieProvider>
+          <Nav></Nav>
+          <AddMovie></AddMovie>
+          <MovieList></MovieList>           
+        </MovieProvider>
 
       </div>
     
