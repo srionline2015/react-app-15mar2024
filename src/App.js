@@ -30,6 +30,7 @@ import CRUDMenu from './CRUDOperation/CRUDMenu';
 import CRUDRouterHome from './CRUDOperation/CRUDRouterHome';
 
 import SimpleFormValidation from './FormValidation/SimpleFormValidation';
+import UseMemoAndUseCallbackHook from './Hooks/UseMemoAndUseCallbackHook';
 
 function App() {
   return (
@@ -69,7 +70,9 @@ function App() {
             <CRUDRouterHome></CRUDRouterHome>
         </BrowserRouter> */}
 
-        <SimpleFormValidation></SimpleFormValidation>
+        {/* <SimpleFormValidation></SimpleFormValidation> */}
+
+        <UseMemoAndUseCallbackHook></UseMemoAndUseCallbackHook>
 
       </div>
     
